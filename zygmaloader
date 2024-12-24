@@ -1,0 +1,120 @@
+local Library = loadstring(game: HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("ŻYGMA's LOADER", "DarkTheme")
+
+local Tab = Window:NewTab("Credits")
+local CreditsSection = Tab:NewSection("fuck aurora")
+
+CreditsSection: NewLabel("Scripted Loader: kubus.dll")
+CreditsSection: NewLabel("Scripts Founder : jawbreaker")
+CreditsSection: NewLabel("Scripts Founder: talerzyca")
+CreditsSection: NewLabel("btw exclusive means that the script is not in the server")
+
+local Tab = Window:NewTab("Fisch")
+local FischSection = Tab:NewSection("ALL IN THE SERVER")
+
+FischSection: NewButton("KiciaHook", "fisz", function()
+    loadstring(game: HttpGet("https://raw.githubusercontent.com/kiciahook/kiciahook/refs/heads/main/loader.lua"))()
+end)
+
+FischSection: NewButton("Native Hub", "fisz", function()
+    (loadstring or load)(game: HttpGet("https://raw.githubusercontent.com/Native-lab/Native/main/loader.lua"))()
+end)
+
+FischSection: NewButton("Speed Hub X", "fisz", function()
+    loadstring(game: HttpGet("https://raw.githubusercontent.com/AhmadV99/Speed-Hub-X/main/Speed%20Hub%20X.lua", true))()
+end)
+
+FischSection: NewButton("Black Hub", "fisz", function()
+    getgenv().key = "Nessie"
+loadstring(game: HttpGet("https://raw.githubusercontent.com/Skibidiking123/Fisch1/refs/heads/main/FischMain"))()
+end)
+
+FischSection: NewButton("Hidden", "fisz", function()
+    loadstring(game: HttpGet("https://raw.githubusercontent.com/tulontop/HiddenRevamp/refs/heads/main/Loader.luau"))()
+end)
+
+FischSection: NewButton("i forgor the name", "fisz", function()
+    loadstring(game: HttpGet("https://api.luarmor.net/files/v3/loaders/fcbdda745da39b237faf2766f6d8d9cb.lua"))()
+end)
+
+FischSection: NewButton("Alchemy Hub", "fisz", function()
+    loadstring(game: HttpGet("https://scripts.alchemyhub.xyz"))()
+end)
+
+
+local Tab = Window:NewTab("Rivals")
+local RivalsSection = Tab:NewSection("all in the server")
+
+RivalsSection: NewButton("Rivals OP GUI", "fisz", function()
+    loadstring(game: HttpGet("https://raw.githubusercontent.com/Sheeshablee73/Scriptss/main/Rivals%20Latest.lua", true))()
+end)
+
+RivalsSection: NewButton("Tbao Hub", "fisz", function()
+    loadstring(game: HttpGet("https://raw.githubusercontent.com/tbao143/thaibao/main/TbaoHubRivals"))()
+end)
+
+local Tab = Window:NewTab("Doors")
+local DoorsSection = Tab:NewSection("ALL IN THE SERVER")
+
+DoorsSection: NewButton("Random Hub", "fisz", function()
+    loadstring(game: HttpGet("https://raw.githubusercontent.com/softbf395/My-doors-hub/refs/heads/main/Main.lua"))()
+end)
+
+DoorsSection: NewButton("Random Hub 2", "fisz", function()
+    loadstring(game: HttpGetAsync("https://pastebin.com/raw/R8QMbhzv"))()
+end)
+
+local Tab = Window:NewTab("Scan_Test.DEMO")
+local ScanSection = Tab:NewSection("ALL IN THE SERVER")
+
+ScanSection: NewButton("Vortex", "fisz", function()
+    loadstring(game: HttpGet('https://raw.githubusercontent.com/Vortex-scripts/Scan_Test.Demo-GUI/main/source.lua'))()
+    print("NIGGA")
+end)
+
+local Tab = Window:NewTab("Piggy")
+local SwinkaSection = Tab:NewSection("ALL IN THE SERVER")
+
+SwinkaSection: NewButton("Random Shit", "fisz", function()
+    loadstring(game: HttpGet("https://rawscripts.net/raw/Piggy-open-source-15390", true))()
+end)
+
+SwinkaSection: NewButton("Random Shit 2", "nn", function()
+    loadstring(game: HttpGet("https://encurtador.com.br/fiyFJ"))();
+end)
+
+local Tab = Window:NewTab("3008")
+local FSection = Tab:NewSection("idk")
+
+FSection: NewButton("502Dev", "zigger", function()
+    loadstring(game: HttpGet('https://raw.githubusercontent.com/502Development/502Lua/main/games/3008.lua'))()
+end)
+
+local Tab = Window:NewTab("Brookhaven")
+local BrookSection = Tab:NewSection("ALL IN THE SERVER")
+
+BrookSection: NewButton("YHUB", "z", function()
+    loadstring(game: HttpGet("https://raw.githubusercontent.com/Luarmor123/community-Y-HUB/refs/heads/main/YHUB%20ENGLISH"))()
+end)
+
+BrookSection: NewButton("Sander X (EXCLUSIVE)", "not in the server", function()
+    loadstring(game: HttpGet(('https://raw.githubusercontent.com/sXPiterXs1111/Sanderxv3.30/main/sanderx3.30')))()
+end)
+
+local Tab = Window:NewTab("BrickBattle Doomspire")
+local DoomSection = Tab:NewSection("all here yes yes")
+
+DoomSection: NewToggle("Batus's Kill All (EXCLUSIVE)", "ezz", function(state)
+    if state then
+getgenv().BatusMadeThisShit=true; loadstring(game: HttpGet("https://raw.githubusercontent.com/juywvm/-Roblox-Projects-/main/Doomspire%20Brickbattle/autofarm_kills.lua"))();
+    else
+    getgenv().BatusMadeThisShit = false; loadstring(game: HttpGet("https://raw.githubusercontent.com/juywvm/-Roblox-Projects-/main/Doomspire%20Brickbattle/autofarm_kills.lua"))();
+end
+end)
+
+local Tab = Window:NewTab("Tha Bronx 2")
+local BronxSection = Tab:NewSection("in the server")
+
+BronxSection: NewButton("fuck i forgot the name", "yes", function()
+    pcall(loadstring(game: HttpGet("https://pastebin.com/raw/rHUdVp8y")))
+end)
